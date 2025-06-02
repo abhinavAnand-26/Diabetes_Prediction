@@ -1,10 +1,12 @@
 # Diabetes_Prediction
 
-**Overview**
+# **Overview**
 The primary goal of this project is to predict the likelihood of an individual having diabetes based on various health-related attributes. Utilizing machine learning techniques, specifically the Support Vector Machine (SVM) algorithm, the model analyzes input data to provide accurate predictions.
 
-**Project Structure**
+# **Project Structure**
+
 The repository comprises the following key files:
+
 app.py: Flask web application to interact with the trained model.
 
 train_model.py: Script to train the SVM model using the dataset.
@@ -27,5 +29,5 @@ requirements.txt: List of dependencies required to run the project.
 
 img.jpeg: Image used in the web application's interface.
 
-**Model Performance**
+# **Model Performance**
 The SVM model was evaluated using standard classification metrics. The serialized classification_report.pkl contains detailed performance metrics, while train_accuracy.pkl and test_accuracy.pkl provide the training and testing accuracy scores, respectively
